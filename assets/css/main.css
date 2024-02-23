@@ -11,6 +11,15 @@ body button {
   @apply transition-colors;
 }
 
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
 /* Scale SVG icons to text size */
 .icon svg {
   @apply h-[1em] w-[1em];

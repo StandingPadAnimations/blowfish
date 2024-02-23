@@ -1418,6 +1418,10 @@ select {
   right:0px
 }
 
+.-bottom-8 {
+  bottom:-2rem
+}
+
 .-bottom-\[47px\] {
   bottom:-47px
 }
@@ -1464,6 +1468,10 @@ select {
 
 .left-3 {
   left:0.75rem
+}
+
+.left-\[16px\] {
+  left:16px
 }
 
 .left-\[50\%\] {
@@ -1548,6 +1556,74 @@ select {
 
 .top-full {
   top:100%
+}
+
+.left-\[100px\] {
+  left:100px
+}
+
+.left-\[200px\] {
+  left:200px
+}
+
+.left-\[250px\] {
+  left:250px
+}
+
+.right-2 {
+  right:0.5rem
+}
+
+.right-\[50px\] {
+  right:50px
+}
+
+.right-\[100px\] {
+  right:100px
+}
+
+.right-\[150px\] {
+  right:150px
+}
+
+.left-\[280px\] {
+  left:280px
+}
+
+.right-\[170px\] {
+  right:170px
+}
+
+.right-\[180px\] {
+  right:180px
+}
+
+.right-\[190px\] {
+  right:190px
+}
+
+.right-\[200px\] {
+  right:200px
+}
+
+.right-\[250px\] {
+  right:250px
+}
+
+.left-\[150px\] {
+  left:150px
+}
+
+.left-\[300px\] {
+  left:300px
+}
+
+.left-\[0px\] {
+  left:0px
+}
+
+.left-\[350px\] {
+  left:350px
 }
 
 .\!z-40 {
@@ -2062,6 +2138,10 @@ select {
   height:1.75rem
 }
 
+.h-72 {
+  height:18rem
+}
+
 .h-8 {
   height:2rem
 }
@@ -2296,6 +2376,10 @@ select {
 
 .w-7 {
   width:1.75rem
+}
+
+.w-72 {
+  width:18rem
 }
 
 .w-8 {
@@ -2703,6 +2787,28 @@ select {
 
 .animate-\[spinner-grow_0\.75s_linear_infinite\] {
   animation:spinner-grow 0.75s linear infinite
+}
+
+@keyframes blob {
+  0% {
+    transform:translate(0px, 0px) scale(1)
+  }
+
+  33% {
+    transform:translate(30px, -50px) scale(1.1)
+  }
+
+  66% {
+    transform:translate(-20px, 20px) scale(0.9)
+  }
+
+  100% {
+    transform:tranlate(0px, 0px) scale(1)
+  }
+}
+
+.animate-blob {
+  animation:blob 7s infinite
 }
 
 @keyframes pulse {
@@ -3371,6 +3477,11 @@ select {
   background-color:rgba(var(--color-primary-500), var(--tw-bg-opacity))
 }
 
+.bg-slate-50 {
+  --tw-bg-opacity:1;
+  background-color:rgb(248 250 252 / var(--tw-bg-opacity))
+}
+
 .bg-slate-900 {
   --tw-bg-opacity:1;
   background-color:rgb(15 23 42 / var(--tw-bg-opacity))
@@ -3392,6 +3503,16 @@ select {
 
 .bg-white\/30 {
   background-color:rgb(255 255 255 / 0.3)
+}
+
+.bg-indigo-950 {
+  --tw-bg-opacity:1;
+  background-color:rgb(30 27 75 / var(--tw-bg-opacity))
+}
+
+.bg-indigo-50 {
+  --tw-bg-opacity:1;
+  background-color:rgb(238 242 255 / var(--tw-bg-opacity))
 }
 
 .bg-gradient-to-b {
@@ -4298,6 +4419,10 @@ select {
   opacity:0.6
 }
 
+.opacity-70 {
+  opacity:0.7
+}
+
 .opacity-75 {
   opacity:0.75
 }
@@ -4316,6 +4441,10 @@ select {
 
 .mix-blend-multiply {
   mix-blend-mode:multiply
+}
+
+.mix-blend-overlay {
+  mix-blend-mode:overlay
 }
 
 .shadow {
@@ -4395,6 +4524,11 @@ select {
 
 .blur {
   --tw-blur:blur(8px);
+  filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+.blur-xl {
+  --tw-blur:blur(24px);
   filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
 }
 
@@ -4580,6 +4714,14 @@ select {
 
 .will-change-transform {
   will-change:transform
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
 }
 
 .\!\[clip\:rect\(0\2c 0\2c 0\2c 0\)\] {
