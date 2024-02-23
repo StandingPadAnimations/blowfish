@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   content: [
     "./layouts/**/*.html",
@@ -16,7 +18,29 @@ module.exports = {
       '2xl': '1536px',
     },
     colors: {
-      transparent: "transparent",
+      transparent: 'transparent',
+      current: 'currentColor',
+      black: colors.black,
+      blue: colors.blue,
+      cyan: colors.cyan,
+      emerald: colors.emerald,
+      fuchsia: colors.fuchsia,
+      slate: colors.slate,
+      gray: colors.gray,
+      stone: colors.stone,
+      green: colors.green,
+      indigo: colors.indigo,
+      lime: colors.lime,
+      orange: colors.orange,
+      pink: colors.pink,
+      purple: colors.purple,
+      red: colors.red,
+      rose: colors.rose,
+      sky: colors.sky,
+      teal: colors.teal,
+      violet: colors.violet,
+      yellow: colors.amber,
+      white: colors.white,
       neutral: {
         DEFAULT: "rgba(var(--color-neutral), <alpha-value>)",
         50: "rgba(var(--color-neutral-50), <alpha-value>)",
