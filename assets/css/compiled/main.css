@@ -3376,6 +3376,11 @@ select {
   background-color:rgb(15 23 42 / var(--tw-bg-opacity))
 }
 
+.bg-slate-950 {
+  --tw-bg-opacity:1;
+  background-color:rgb(2 6 23 / var(--tw-bg-opacity))
+}
+
 .bg-transparent {
   background-color:transparent
 }
@@ -3429,17 +3434,6 @@ select {
   --tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)
 }
 
-.from-slate-950 {
-  --tw-gradient-from:#020617 var(--tw-gradient-from-position);
-  --tw-gradient-to:rgb(2 6 23 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)
-}
-
-.via-gray-950 {
-  --tw-gradient-to:rgb(3 7 18 / 0)  var(--tw-gradient-to-position);
-  --tw-gradient-stops:var(--tw-gradient-from), #030712 var(--tw-gradient-via-position), var(--tw-gradient-to)
-}
-
 .to-neutral {
   --tw-gradient-to:rgba(var(--color-neutral), 1) var(--tw-gradient-to-position)
 }
@@ -3454,10 +3448,6 @@ select {
 
 .to-secondary-700 {
   --tw-gradient-to:rgba(var(--color-secondary-700), 1) var(--tw-gradient-to-position)
-}
-
-.to-slate-900 {
-  --tw-gradient-to:#0f172a var(--tw-gradient-to-position)
 }
 
 .to-transparent {
