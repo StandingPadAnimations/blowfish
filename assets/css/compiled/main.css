@@ -1514,6 +1514,10 @@ select {
   right:2.25rem
 }
 
+.right-\[100px\] {
+  right:100px
+}
+
 .right-\[200px\] {
   right:200px
 }
@@ -1564,6 +1568,62 @@ select {
 
 .top-full {
   top:100%
+}
+
+.left-\[250px\] {
+  left:250px
+}
+
+.top-8 {
+  top:2rem
+}
+
+.top-10 {
+  top:2.5rem
+}
+
+.right-\[50px\] {
+  right:50px
+}
+
+.right-\[150px\] {
+  right:150px
+}
+
+.top-\[100px\] {
+  top:100px
+}
+
+.-top-\[100px\] {
+  top:-100px
+}
+
+.top-\[-100px\] {
+  top:-100px
+}
+
+.-bottom-\[2px\] {
+  bottom:-2px
+}
+
+.bottom-\[2px\] {
+  bottom:2px
+}
+
+.bottom-\[-10px\] {
+  bottom:-10px
+}
+
+.bottom-\[-100px\] {
+  bottom:-100px
+}
+
+.left-\[300px\] {
+  left:300px
+}
+
+.left-\[100px\] {
+  left:100px
 }
 
 .\!z-40 {
