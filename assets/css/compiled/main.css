@@ -6571,6 +6571,11 @@ pre {
   background-color:rgba(var(--color-primary-600), var(--tw-bg-opacity))
 }
 
+.hover\:bg-slate-950:hover {
+  --tw-bg-opacity:1;
+  background-color:rgb(2 6 23 / var(--tw-bg-opacity))
+}
+
 .hover\:fill-\[\#8b8b8b\]:hover {
   fill:#8b8b8b
 }
