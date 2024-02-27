@@ -4,7 +4,7 @@
   {{ else }}
   <a href="{{ .RelPermalink }}" class="min-w-full">
     {{ end }}
-    <div class="transition group ease-in-out delay-100 hover:-translate-y-1 hover:scale-102 rounded bg-gradient-to-r from-pink-600 to-purple-600 p-[1.5]">
+    <div class="transition-all group ease-in-out duration-500 hover:-translate-y-1 hover:scale-102 rounded bg-gradient-to-r from-pink-600 via-purple-600 to-purple-600 p-[1.5] bg-size-200 bg-pos-0 hover:bg-pos-100">
       <div class="transition group ease-in-out delay-100 min-h-full bg-slate-900 group-hover:bg-slate-950 rounded overflow-hidden shadow-2xl relative">
 
         {{- with $.Params.images -}}

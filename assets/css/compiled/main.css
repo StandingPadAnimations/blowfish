@@ -1458,6 +1458,10 @@ select {
   bottom:50%
 }
 
+.bottom-\[-100px\] {
+  bottom:-100px
+}
+
 .left-0 {
   left:0px
 }
@@ -1472,6 +1476,10 @@ select {
 
 .left-\[150px\] {
   left:150px
+}
+
+.left-\[250px\] {
+  left:250px
 }
 
 .left-\[350px\] {
@@ -1514,8 +1522,8 @@ select {
   right:2.25rem
 }
 
-.right-\[100px\] {
-  right:100px
+.right-\[150px\] {
+  right:150px
 }
 
 .right-\[200px\] {
@@ -1540,6 +1548,10 @@ select {
 
 .top-20 {
   top:5rem
+}
+
+.top-\[-100px\] {
+  top:-100px
 }
 
 .top-\[110vh\] {
@@ -1568,62 +1580,6 @@ select {
 
 .top-full {
   top:100%
-}
-
-.left-\[250px\] {
-  left:250px
-}
-
-.top-8 {
-  top:2rem
-}
-
-.top-10 {
-  top:2.5rem
-}
-
-.right-\[50px\] {
-  right:50px
-}
-
-.right-\[150px\] {
-  right:150px
-}
-
-.top-\[100px\] {
-  top:100px
-}
-
-.-top-\[100px\] {
-  top:-100px
-}
-
-.top-\[-100px\] {
-  top:-100px
-}
-
-.-bottom-\[2px\] {
-  bottom:-2px
-}
-
-.bottom-\[2px\] {
-  bottom:2px
-}
-
-.bottom-\[-10px\] {
-  bottom:-10px
-}
-
-.bottom-\[-100px\] {
-  bottom:-100px
-}
-
-.left-\[300px\] {
-  left:300px
-}
-
-.left-\[100px\] {
-  left:100px
 }
 
 .\!z-40 {
@@ -3550,6 +3506,16 @@ select {
   --tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)
 }
 
+.via-pink-600 {
+  --tw-gradient-to:rgb(219 39 119 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops:var(--tw-gradient-from), #db2777 var(--tw-gradient-via-position), var(--tw-gradient-to)
+}
+
+.via-purple-600 {
+  --tw-gradient-to:rgb(147 51 234 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops:var(--tw-gradient-from), #9333ea var(--tw-gradient-via-position), var(--tw-gradient-to)
+}
+
 .to-neutral {
   --tw-gradient-to:rgba(var(--color-neutral), 1) var(--tw-gradient-to-position)
 }
@@ -3570,8 +3536,16 @@ select {
   --tw-gradient-to:transparent var(--tw-gradient-to-position)
 }
 
+.bg-size-200 {
+  background-size:200% 200%
+}
+
 .bg-clip-padding {
   background-clip:padding-box
+}
+
+.bg-pos-0 {
+  background-position:0% 0%
 }
 
 .fill-\[\#afafaf\] {
@@ -4631,6 +4605,10 @@ select {
   transition-delay:0ms
 }
 
+.delay-500 {
+  transition-delay:500ms
+}
+
 .duration-1000 {
   transition-duration:1000ms
 }
@@ -4673,6 +4651,10 @@ select {
 
 .duration-\[600ms\] {
   transition-duration:600ms
+}
+
+.duration-500 {
+  transition-duration:500ms
 }
 
 .ease-\[cubic-bezier\(0\2c 0\2c 0\.15\2c 1\)\2c _cubic-bezier\(0\2c 0\2c 0\.15\2c 1\)\] {
@@ -6634,6 +6616,10 @@ pre {
 .hover\:bg-slate-950:hover {
   --tw-bg-opacity:1;
   background-color:rgb(2 6 23 / var(--tw-bg-opacity))
+}
+
+.hover\:bg-pos-100:hover {
+  background-position:100% 100%
 }
 
 .hover\:fill-\[\#8b8b8b\]:hover {
