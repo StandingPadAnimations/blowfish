@@ -1,5 +1,5 @@
 {{ $parent := .Page.RelPermalink }}
-<div class="rounded bg-gradient-to-r from-pink-600 to-purple-600 p-[1.5]">
+<div class="transition-all group ease-in-out duration-500 rounded bg-gradient-to-r from-pink-600 via-purple-600 to-purple-600 p-[1.7] bg-size-200 bg-pos-0 hover:bg-pos-100">
     <section class="transition group ease-in-out delay-100 space-y-10 w-full bg-slate-900 hover:bg-slate-950">
         {{ $RelPermalink := .Get "link" }}
         {{ range ( where .Site.RegularPages "RelPermalink" $RelPermalink | first 1 ) }}
