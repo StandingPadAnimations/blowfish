@@ -2274,6 +2274,11 @@ select {
   min-height:100%
 }
 
+.min-h-max {
+  min-height:-moz-max-content;
+  min-height:max-content
+}
+
 .\!w-px {
   width:1px !important
 }
@@ -3602,12 +3607,12 @@ select {
   padding:1.5rem
 }
 
-.p-\[1\.5\] {
-  padding:1.5
+.p-\[1\.5px\] {
+  padding:1.5px
 }
 
-.p-\[1\.7\] {
-  padding:1.7
+.p-\[1\.7px\] {
+  padding:1.7px
 }
 
 .p-\[1rem\] {
@@ -6549,8 +6554,8 @@ pre {
   display:none
 }
 
-.hover\:-translate-y-1:hover {
-  --tw-translate-y:-0.25rem;
+.hover\:-translate-y-\[1\%\]:hover {
+  --tw-translate-y:-1%;
   transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
