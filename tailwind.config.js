@@ -6,7 +6,7 @@ module.exports = {
     "./content/**/*.{html,md}",
     "./themes/blowfish/layouts/**/*.html",
     "./themes/blowfish/content/**/*.{html,md}",
-    "./node_modules/tw-elements/dist/js/**/*.js"
+    "./node_modules/tw-elements/js/**/*.js"
   ],
   darkMode: "class",
   theme: {
@@ -227,5 +227,6 @@ module.exports = {
   plugins: [
     require("@tailwindcss/typography"),
     require('@tailwindcss/forms'),
+    require("tw-elements/plugin.cjs"),
   ],
 };

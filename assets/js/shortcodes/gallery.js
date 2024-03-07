@@ -15,7 +15,6 @@
             magicGrid.listen();
             magicGrids.push(magicGrid);
         });
-
         console.log("Galleries founded and initialized with MagicGrid", packeries);
         console.groupEnd();
     });
