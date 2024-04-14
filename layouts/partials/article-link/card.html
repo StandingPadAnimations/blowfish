@@ -2,7 +2,13 @@
 {{ with .Params.externalUrl }}
 <a href="{{ . }}" target="_blank" rel="external" class="min-w-full">
   {{ else }}
-  <a href="{{ .RelPermalink }}" class="min-w-full">
+  <a class="min-w-full"
+  hx-get="{{ .RelPermalink }}"
+  hx-target="#standings-page"
+  hx-swap="outerHTML show:top"
+  hx-replace-url="true"
+  hx-push-url="true"
+  >
     {{ end }}
     <div class="transition-all group ease-in-out duration-500 motion-safe:hover:-translate-y-[1%] motion-safe:hover:scale-102 rounded bg-gradient-to-r from-pink-600 via-purple-600 to-purple-600 p-[1.5px] bg-size-200 bg-pos-0 hover:bg-pos-100 h-full">
       <div class="transition group ease-in-out delay-100 h-full bg-slate-50 group-hover:bg-slate-100 dark:bg-slate-900 dark:group-hover:bg-slate-950 rounded overflow-hidden shadow-2xl relative">
