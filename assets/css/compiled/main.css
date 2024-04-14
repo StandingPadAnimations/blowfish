@@ -1510,6 +1510,10 @@ select {
   top:0px
 }
 
+.top-10 {
+  top:2.5rem
+}
+
 .top-20 {
   top:5rem
 }
@@ -1520,6 +1524,126 @@ select {
 
 .top-\[calc\(100vh-5\.5rem\)\] {
   top:calc(100vh - 5.5rem)
+}
+
+.-bottom-10 {
+  bottom:-2.5rem
+}
+
+.-bottom-80 {
+  bottom:-20rem
+}
+
+.left-\[500px\] {
+  left:500px
+}
+
+.left-\[300px\] {
+  left:300px
+}
+
+.left-\[100px\] {
+  left:100px
+}
+
+.right-\[150px\] {
+  right:150px
+}
+
+.right-\[300px\] {
+  right:300px
+}
+
+.left-\[300\%\] {
+  left:300%
+}
+
+.left-\[300rem\] {
+  left:300rem
+}
+
+.left-\[30rem\] {
+  left:30rem
+}
+
+.left-\[20rem\] {
+  left:20rem
+}
+
+.-bottom-\[50rem\] {
+  bottom:-50rem
+}
+
+.-bottom-\[100rem\] {
+  bottom:-100rem
+}
+
+.right-\[300rem\] {
+  right:300rem
+}
+
+.right-\[30rem\] {
+  right:30rem
+}
+
+.right-\[10rem\] {
+  right:10rem
+}
+
+.right-\[20rem\] {
+  right:20rem
+}
+
+.left-\[150rem\] {
+  left:150rem
+}
+
+.left-\[10rem\] {
+  left:10rem
+}
+
+.left-\[30wh\] {
+  left:30wh
+}
+
+.left-\[300wh\] {
+  left:300wh
+}
+
+.left-\[30vw\] {
+  left:30vw
+}
+
+.right-\[20vh\] {
+  right:20vh
+}
+
+.right-\[20vw\] {
+  right:20vw
+}
+
+.left-\[10vw\] {
+  left:10vw
+}
+
+.left-\[40vw\] {
+  left:40vw
+}
+
+.left-\[35vw\] {
+  left:35vw
+}
+
+.right-\[25vw\] {
+  right:25vw
+}
+
+.left-\[15vw\] {
+  left:15vw
+}
+
+.left-\[20vw\] {
+  left:20vw
 }
 
 .z-10 {
@@ -2195,6 +2319,10 @@ select {
 
 .justify-between {
   justify-content:space-between
+}
+
+.justify-items-center {
+  justify-items:center
 }
 
 .gap-4 {
