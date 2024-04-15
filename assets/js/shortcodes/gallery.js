@@ -1,9 +1,8 @@
 (function init() {
-
-    $(window).ready(function () {
+    htmx.onLoad(function(content) {
         console.groupCollapsed('[DEBUG] Gallery feature enable');
         let magicGrids = [];
-        let nodeGalleries = document.querySelectorAll('.gallery');
+        let nodeGalleries = content.querySelectorAll('.gallery');
 
         nodeGalleries.forEach(nodeGallery => {
             let magicGrid = new MagicGrid({
