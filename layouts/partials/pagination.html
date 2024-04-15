@@ -1,5 +1,5 @@
 {{- if gt .Paginator.TotalPages 1 -}}
-  <ul class="flex flex-row mt-8 justify-center">
+  <ul class="flex flex-row mt-8 justify-center" hx-boost="true">
     {{- .Scratch.Set "paginator.ellipsed" false -}}
     {{ if $.Paginator.HasPrev }}
     <li>
