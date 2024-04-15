@@ -31,7 +31,6 @@
 {{ end }}
 
 {{/* Katex */}}
-{{ if .Page.HasShortcode "katex" }}
 {{ $katexCSS := resources.Get "lib/katex/katex.min.css" }}
 {{ $katexCSS := $katexCSS | resources.Fingerprint "sha512" }}
 <link type="text/css" rel="stylesheet" href="{{ $katexCSS.RelPermalink }}" integrity="{{ $katexCSS.Data.Integrity }}" />
@@ -46,23 +45,18 @@
 {{ range $katexFonts }}
 <!-- {{ .RelPermalink }} -->
 {{ end }}
-{{ end }}
 
 {{/* TypeIt */}}
-{{ if .Page.HasShortcode "typeit" }}
 {{ $typeitLib := resources.Get "lib/typeit/typeit.umd.js" }}
 <script defer src="{{ $typeitLib.RelPermalink }}" integrity="{{ $typeitLib.Data.Integrity }}"></script>
-{{ end }}
 
 {{/* Packery */}}
-{{ if .Page.HasShortcode "gallery" }}
-    {{ $magicGridLib := resources.Get "lib/magic-grid/magic-grid.min.js" }}
-    <script defer src="{{ $magicGridLib.RelPermalink }}" integrity="{{ $magicGridLib.Data.Integrity }}"></script>
+{{ $magicGridLib := resources.Get "lib/magic-grid/magic-grid.min.js" }}
+<script defer src="{{ $magicGridLib.RelPermalink }}" integrity="{{ $magicGridLib.Data.Integrity }}"></script>
 
-    {{ $jsShortcodeGallery := resources.Get "js/shortcodes/gallery.js" }}
-    {{ $jsShortcodeGallery = $jsShortcodeGallery | resources.Minify | resources.Fingerprint "sha512" }}
-    <script type="text/javascript" src="{{ $jsShortcodeGallery.RelPermalink }}" integrity="{{ $jsShortcodeGallery.Data.Integrity }}"></script>
-{{ end }}
+{{ $jsShortcodeGallery := resources.Get "js/shortcodes/gallery.js" }}
+{{ $jsShortcodeGallery = $jsShortcodeGallery | resources.Minify | resources.Fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $jsShortcodeGallery.RelPermalink }}" integrity="{{ $jsShortcodeGallery.Data.Integrity }}"></script>
 
 {{/* tw-elements */}}
 {{ if or (.Page.HasShortcode "carousel") (.Page.HasShortcode "timeline")}}
