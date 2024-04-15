@@ -2,6 +2,10 @@
 {{ $jqueryLib := resources.Get "lib/jquery/jquery.slim.min.js" }}
 <script src="{{ $jqueryLib.RelPermalink }}" integrity="{{ $jqueryLib.Data.Integrity }}"></script>
 
+{{/* htmx */}}
+{{ $htmxLib := resources.Get "lib/htmx.org/htmx.min.js" }}
+<script src="{{ $htmxLib.RelPermalink }}" integrity="{{ $htmxLib.Data.Integrity }}"></script>
+
 {{/* Mermaid */}}
 {{ if .Page.HasShortcode "mermaid" }}
   {{ $mermaidLib := resources.Get "lib/mermaid/mermaid.min.js" }}
