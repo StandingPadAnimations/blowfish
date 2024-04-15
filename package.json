@@ -37,11 +37,10 @@
     "@tailwindcss/typography": "^0.5.12",
     "chart.js": "^4.4.2",
     "fuse.js": "^7.0.0",
-    "htmx.org": "^1.9.11",
     "jquery": "^3.7.1",
+    "magic-grid": "^3.2.4",
     "katex": "^0.16.10",
     "lite-youtube-embed": "^0.3.2",
-    "magic-grid": "^3.2.4",
     "mermaid": "^10.9.0",
     "prettier": "^3.2.5",
     "prettier-plugin-go-template": "^0.0.15",
@@ -106,10 +105,6 @@
     {
       "from": "node_modules/lite-youtube-embed/src/lite-yt-embed.css",
       "to": "assets/lib/lite-youtube-embed/lite-yt-embed.css"
-    },
-    {
-      "from": "node_modules/htmx.org/dist/htmx.min.js",
-      "to": "assets/lib/htmx.org/htmx.min.js"
     }
   ],
   "dependencies": {
