@@ -635,5 +635,34 @@
       "Blog",
       "Personal Site"
     ]
+  },
+  {
+    "title": "Synaptic Sugar",
+    "url": "https://synapticsugar.games",
+    "source": "n/a",
+    "tags": [
+      "Videogame Developer"
+    ]
+  },
+  {
+    "title": "michaeldorner.de",
+    "url": "https://www.michaeldorner.de",
+    "source": "n/a",
+    "tags": [
+      "Blog",
+      "Personal Site",
+      "Academia"
+    ]
+  },
+  {
+    "title": "Ignacio Conde",
+    "url": "http://www.ignaciomconde.com/",
+    "source": "https://github.com/DJKero/djkero.github.io",
+    "tags": [
+      "Personal Site",
+      "Portfolio Site",
+      "Software Developer",
+      "Videogame Developer"
+    ]
   }
 ]
