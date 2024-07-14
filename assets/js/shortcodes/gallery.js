@@ -1,5 +1,5 @@
-htmx.onLoad(function(content) {
-    $(content).ready(function () {
+(function init() {
+    $(window).ready(function () {
         console.groupCollapsed('[DEBUG] Gallery feature enable');
         let magicGrids = [];
         let nodeGalleries = document.querySelectorAll('.gallery');
@@ -17,4 +17,4 @@ htmx.onLoad(function(content) {
         console.log("Galleries founded and initialized with MagicGrid", magicGrids);
         console.groupEnd();
     });
-});
+})();
