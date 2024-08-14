@@ -40,7 +40,7 @@
     "jquery": "^3.7.1",
     "katex": "^0.16.10",
     "lite-youtube-embed": "^0.3.2",
-    "magic-grid": "^3.2.4",
+    "magic-grid": "^3.3.6",
     "mermaid": "^10.9.1",
     "prettier": "^3.2.5",
     "prettier-plugin-go-template": "^0.0.15",
