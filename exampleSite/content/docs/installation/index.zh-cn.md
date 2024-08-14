@@ -1,6 +1,6 @@
 ---
 title: "安装和配置"
-date: 2020-08-16
+weight: 2
 draft: false
 description: "如何安装 Blowfish 主题。"
 slug: "installation"
@@ -180,7 +180,7 @@ git submodule update --remote --merge
 
 一旦子模块更新完毕，请检查你的确实是否一切正常。
 
-### Update using Hugo
+### 使用 Hugo 更新
 
 Hugo 更新也十分容易。只需要进入网站根目录，并执行以下命令即可：
 
