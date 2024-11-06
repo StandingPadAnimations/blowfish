@@ -6,7 +6,8 @@ module.exports = {
     "./content/**/*.{html,md}",
     "./themes/blowfish/layouts/**/*.html",
     "./themes/blowfish/content/**/*.{html,md}",
-    "./node_modules/tw-elements/js/**/*.js"
+    "./node_modules/tw-elements/js/**/*.js",
+    "../../layouts/**/*.html"
   ],
   darkMode: "class",
   theme: {
