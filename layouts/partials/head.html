@@ -72,7 +72,7 @@
   {{ $bundleJS := $assets.Get "js" | resources.Concat "js/main.bundle.js" | resources.Minify | resources.Fingerprint
   "sha512" }}
   <script defer type="text/javascript" id="script-bundle" src="{{ $bundleJS.RelPermalink }}"
-    integrity="{{ $bundleJS.Data.Integrity }}" data-copy="{{ i18n " code.copy" }}" data-copied="{{ i18n " code.copied"
+    integrity="{{ $bundleJS.Data.Integrity }}" data-copy="{{ i18n "code.copy" }}" data-copied="{{ i18n "code.copied"
     }}"></script>
   {{ end }}
   {{ if not .Site.Params.disableImageZoom | default true }}
@@ -107,6 +107,14 @@
   {{/* Social */}}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}
+  {{- /* Main page always uses this; fallback elsewhere if no feature image */ -}}
+  {{- /* See https://gohugo.io/templates/embedded/#open-graph */ -}}
+  {{ if not ($.Resources.GetMatch "*feature*") }}
+    {{ with .Site.Params.defaultSocialImage }}
+    <meta name="twitter:image" content="{{ . | absURL }}" />
+    <meta property="og:image" content="{{ . | absURL }}" />
+    {{ end }}
+  {{ end }}
   {{/* Schema */}}
   {{ partial "schema.html" . }}
   {{/* Me */}}
@@ -115,7 +123,9 @@
   {{ with .Site.Params.Author.links }}
   {{ range $links := . }}
   {{ range $name, $url := $links }}
+  {{ if not (strings.HasPrefix $url "mailto:") }}
   <link href="{{ $url }}" rel="me" />{{ end }}
+  {{ end }}
   {{ end }}
   {{ end }}
   {{/* Vendor */}}
@@ -125,6 +135,10 @@
   {{/* Extend head - eg. for custom analytics scripts, etc. */}}
   {{ if templates.Exists "partials/extend-head.html" }}
   {{ partial "extend-head.html" . }}
+  {{ end }}
+  {{/* Uncached extend head - e.g. {{ with .Page.HasShortcode "gallery" }} do something {{ end }}  */}}
+  {{ if templates.Exists "partials/extend-head-uncached.html" }}
+  {{ partial "extend-head-uncached.html" . }}
   {{ end }}
   <meta name="theme-color"/>
   {{/* Firebase */}}

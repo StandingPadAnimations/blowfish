@@ -153,14 +153,6 @@
     ]
   },
   {
-    "title": "niklas-hartmann-dev.de",
-    "url": "https://niklas-hartmann-dev.de/",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
     "title": "blog.muffn.io",
     "url": "https://blog.muffn.io/",
     "source": "n/a",
@@ -243,14 +235,6 @@
   {
     "title": "clemsau.com",
     "url": "https://clemsau.com/",
-    "source": "n/a",
-    "tags": [
-      "Personal site"
-    ]
-  },
-  {
-    "title": "lelouvincx.github.io",
-    "url": "https://lelouvincx.github.io/",
     "source": "n/a",
     "tags": [
       "Personal site"
@@ -486,15 +470,6 @@
     ]
   },
   {
-    "title": "notes.bluesdriveamelia.space",
-    "url": "https://notes.bluesdriveamelia.space/",
-    "source": "n/a",
-    "tags": [
-      "Blog",
-      "Personal site"
-    ]
-  },
-  {
     "title": "ekwska.com",
     "url": "https://ekwska.com",
     "source": "n/a",
@@ -630,15 +605,6 @@
     ]
   },
   {
-    "title": "江ノ島エスカー",
-    "url": "https://zen96k.github.io/enoshima-escar",
-    "source": "https://github.com/zen96k/enoshima-escar",
-    "tags": [
-      "Portfolio Site",
-      "Software Developer"
-    ]
-  },
-  {
     "title": "nveshaan",
     "url": "https://nveshaan.github.io/",
     "source": "n/a",
@@ -695,15 +661,6 @@
     "title": "hetong-re4per.com",
     "url": "https://hetong-re4per.com",
     "source": "https://github.com/HeTongRe4per/HeTongRe4per.github.io",
-    "tags": [
-      "Personal site",
-      "Blog"
-    ]
-  },
-  {
-    "title": "Xeonzilla’s Note",
-    "url": "https://xeonzilla.top",
-    "source": "https://github.com/Xeonzilla/blog",
     "tags": [
       "Personal site",
       "Blog"
@@ -773,15 +730,6 @@
     "source": "n/a",
     "tags": [
       "Business site"
-    ]
-  },
-  {
-    "title": "さばっこ",
-    "url": "https://sabac.co",
-    "source": "n/a",
-    "tags": [
-      "Personal site",
-      "Blog"
     ]
   },
   {
@@ -885,6 +833,71 @@
     "tags": [
       "Blog",
       "Outdoor Blog"
+    ]
+  },
+  {
+    "title": "The Space 🌍",
+    "url": "https://panoskorovesis.github.io/",
+    "source": "https://github.com/panoskorovesis/panoskorovesis.github.io",
+    "tags": [
+      "Personal Website",
+      "Tech Blog"
+    ]
+  },
+  {
+    "title": "blog.francescopapini.com",
+    "url": "https://blog.francescopapini.com",
+    "source": "https://github.com/papo1011/blog",
+    "tags": [
+      "Personal site",
+      "blog"
+    ]
+  },
+  {
+    "title": "Adri Antunez's Cloud Site",
+    "url": "https://adriantunez.cloud",
+    "source": "n/a",
+    "tags": [
+      "Technology Blog",
+      "Personal site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "irusukan",
+    "url": "https://irusukan.com",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "FEEC/UNICAMP IA382 - Seminar in Computer Engineering",
+    "url": "https://feec-seminar-comp-eng.github.io/",
+    "source": "https://github.com/feec-seminar-comp-eng/feec-seminar-comp-eng.github.io",
+    "tags": [
+      "Seminars",
+      "Class"
+    ]
+  },
+  {
+    "title": "blog.francescopapini.com",
+    "url": "https://blog.francescopapini.com",
+    "source": "n/a",
+    "tags": [
+      "Technology Blog",
+      "Personal Site",
+      "Blog"
+    ]
+  },
+  {
+    "title": "Kyo's Garden",
+    "url": "https://heykyo.com",
+    "source": "n/a",
+    "tags": [
+      "Personal Site",
+      "Blog"
     ]
   }
 ]
